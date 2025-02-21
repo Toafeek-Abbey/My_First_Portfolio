@@ -8,13 +8,17 @@ header {
 main {
   display: flex;
   flex-direction: row;
-  flex: auto
+  flex: auto;
+  backgroung-color: red;
 }
 article{
   flex: 2;
-  overflow-y: auto
+  overflow-y: auto;
+  color: yellow;
+  border: 2px solid white,
 }
 aside{
   flex: 1;
-  overflow-y: auto
+  overflow-y: auto;
+  border: 2px solid white,
 }
